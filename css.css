@@ -1,10 +1,13 @@
 body {
-    background: black url(http://smashinghub.com/wp-content/uploads/2010/07/nature-photography-16.jpg) no-repeat;
-    background-position: top center;
-    margin: 0 auto;
-    color: #39457c;
-    padding: 0 5%;
-    font: 78%/130% "Verdana", "Arial", "Helvetica", sans-serif;
+    background: black url(http://smashinghub.com/wp-content/uploads/2010/07/nature-photography-16.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*margin: 0 auto;*/
+    /*color: #39457c;*/
+    /*padding: 0 5%;*/
+    /*font: 78%/130% "Verdana", "Arial", "Helvetica", sans-serif;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
